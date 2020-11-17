@@ -1,0 +1,29 @@
+.container {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.box {
+  display: flex;
+  margin-top: 10px;
+  &__content {
+    flex: 1;
+    p {
+      margin-bottom: 5px;
+    }
+    span {
+      font-size: 12px;
+      color: #cccccc;
+    }
+  }
+  &__footer {
+    display: flex;
+    align-items: center;
+  }
+}
